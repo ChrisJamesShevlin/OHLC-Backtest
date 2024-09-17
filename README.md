@@ -11,7 +11,7 @@ This repository contains a Python script that connects to a **MySQL** database t
 - [Strategy Explanation](#strategy-explanation)
 - [Customization](#customization)
 - [Error Handling](#error-handling)
-- [License](#license)
+
 
 ## Overview
 
@@ -110,11 +110,5 @@ The script includes basic error handling for the MySQL database connection and d
 except mysql.connector.Error as err:
     print(f"Error fetching data: {err}")
 ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
----
 
 Feel free to contribute or suggest improvements by opening an issue or submitting a pull request.
